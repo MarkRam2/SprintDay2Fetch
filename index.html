@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link rel="stylesheet" href="./style/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    
+<!-- student directory -->
+    <nav class="navbar bg-blue">
+        <div class="container-fluid">
+            <a class="navbar-brand yes" href="./index.html">Student directory</a>
+            <a class="navbar-brand yes" href="./Pages/sayHello.html">Say hello</a>
+            <a class="navbar-brand yes" href="./Pages/reverseIt.html">Reverse it</a>
+            <a class="navbar-brand yes" href="./Pages/oddOrEven.html">Ood or even</a>
+            <a class="navbar-brand yes" href="./Pages/madLib.html">Mad lib</a>
+            <a class="navbar-brand yes" href="./Pages/greaterThanLessThan.html">Greater than less than</a>
+            <a class="navbar-brand yes" href="./Pages/askingQuestions.html">Asking questions</a>
+            <a class="navbar-brand yes" href="./Pages/add2Numbers.html">Add two numbers</a>
+            <a class="navbar-brand yes" href="./Pages/restaurantPicker.html">Restaurant picker</a>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center mt-5 Title">Student Directory</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col ResponceText">
+                <div  class="col-6 superLarge yes "> <p id="studentReturn" >Text will go here</p></div>
+            </div>
+        </div>
+    </div>
+
+<div class="container-fluid">
+        <div class="row inputText">
+            <div class="col-6">
+                <input id="nameInput" type="text" class="form" placeholder="Enter student name">
+            </div>
+            <div class="col-6 inputPosition">
+                <input id="nameInput2" type="text" class="form" placeholder="Enter student last name">
+            </div>
+        </div>
+        <div class="row inputText">
+            <div class="col-6">
+                <button id="studentubBtn" type="button" class="btn btn-secondary">Submit name</button>
+            </div>
+            <div class="col-6 inputPosition">
+                <button id="subBtn" type="button" class="btn btn-secondary">Submit last name</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br><br>
+
+<div class="container-fluid">
+    <div class="row inputText">
+        <div class="col-6 ">
+            <input id="slackInput" type="text" class="form" placeholder="Enter student slack name">
+        </div>
+        <div class="col-6 inputPosition">
+            <input id="nameInput4" type="text" class="form" placeholder="Enter student email">
+        </div>
+    </div>
+    <div class="row inputText">
+        <div class="col-6">
+            <button id="slackSubBtn" type="button" class="btn btn-secondary">Submit slack Name</button>
+        </div>
+        <div class="col-6 inputPosition">
+            <button id="subBtn" type="button" class="btn btn-secondary">Submit email</button>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col ResponceText">
+        <div  class="col-6 superLarge yes "> <p id="firstName" >Text will go here</p></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col ResponceText">
+        <div  class="col-6 superLarge yes "> <p id="lastName" >Text will go here</p></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col ResponceText">
+        <div  class="col-6 superLarge yes "> <p id="slackName" >Text will go here</p></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col ResponceText">
+        <div  class="col-6 superLarge yes "> <p id="email" >Text will go here</p></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col ResponceText">
+        <div  class="col-6 superLarge yes "> <p id="hobby" >Text will go here</p></div>
+    </div>
+</div>
+
+<!--  -->
+    <script src="./data/firstName.js"></script>
+    <script src="./data/email.js"></script>
+    <script src="./data/lastName.js"></script>
+    <script src="./data/slackName.js"></script>
+<!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

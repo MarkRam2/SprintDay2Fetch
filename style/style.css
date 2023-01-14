@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(170, 78, 78) !important ;
+    background-image: url(../image/image-removebg-preview.png);
+}
+.bg-blue {
+    background-color: rgb(78, 170, 170);
+}
+.Title {
+    font-size: 80px;
+}
+.TitlePos {
+    display: flex;
+    justify-content: center;
+}
+.ResponceText {
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.inputText {
+    font-size: 25px;
+}
+.inputPosition {
+    display: flex;
+    justify-content: end;
+}
+.inputCenter {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: #EEE776;
+}
+p {
+    color: #EEE776;
+}
+.yes {
+    color: #EEE776;
+}
